@@ -1,0 +1,201 @@
+DistributorID,DistributorName,City,State,RegionBranchID,AssignedSalesHeadID,CreditLimit,ActivityTier,IsActive
+1,Super Agencies,Chennai,Tamil Nadu,2,2,500000,Regular,1
+2,Metro Enterprises,Ludhiana,Punjab,3,3,500000,Regular,1
+3,Shree Supply Co.,Surat,Gujarat,1,1,2000000,Regular,1
+4,Mahalaxmi Agencies,Bengaluru,Karnataka,2,2,500000,Occasional,1
+5,Eastern Power House,Lucknow,Uttar Pradesh,3,3,2000000,Regular,1
+6,Sunrise Trading Co.,Mumbai,Maharashtra,1,1,2000000,Occasional,1
+7,Milan Light Traders,Chennai,Tamil Nadu,2,2,2000000,Occasional,1
+8,Mahalaxmi Distributors,Patna,Bihar,4,4,500000,Occasional,1
+9,Prime Light Traders,Delhi,Delhi,3,3,1000000,Regular,1
+10,Royal Sales Corporation,Nashik,Maharashtra,1,1,5000000,Regular,1
+11,Sai Supply Co.,Ahmedabad,Gujarat,1,1,500000,Occasional,1
+12,Om Supply Co.,Ahmedabad,Gujarat,1,1,1000000,Regular,1
+13,Capital Electronics,Mumbai,Maharashtra,1,1,500000,Regular,1
+14,Classic Electronics 14,Patna,Bihar,4,4,2000000,Dormant,0
+15,Super Supply Co.,Pune,Maharashtra,1,1,2000000,Occasional,1
+16,Sunrise Distributors,Ranchi,Jharkhand,4,4,500000,Dormant,0
+17,National Power House,Mumbai,Maharashtra,1,1,2000000,Occasional,1
+18,Milan Enterprises,Bengaluru,Karnataka,2,2,1000000,Dormant,0
+19,Excel Light Traders,Kolkata,West Bengal,4,4,1000000,Occasional,1
+20,National Agencies,Lucknow,Uttar Pradesh,3,3,1000000,Regular,1
+21,United Power House,Patna,Bihar,4,4,500000,Occasional,1
+22,United Enterprises,Ahmedabad,Gujarat,1,1,1000000,Regular,1
+23,United Electricals,Kochi,Kerala,2,2,1000000,Occasional,1
+24,Western Distributors,Siliguri,West Bengal,4,4,5000000,Top,1
+25,Metro Supply Co.,Nagpur,Maharashtra,1,1,500000,Occasional,1
+26,Eastern Supply Co.,Howrah,West Bengal,4,4,1000000,Dormant,0
+27,Super Distributors,Siliguri,West Bengal,4,4,1000000,Occasional,1
+28,United Light Centre,Kanpur,Uttar Pradesh,3,3,500000,Regular,1
+29,Prime Enterprises,Surat,Gujarat,1,1,500000,Regular,1
+30,Bharat Trading Co.,Mumbai,Maharashtra,1,1,500000,Top,1
+31,Galaxy Enterprises,Hyderabad,Telangana,2,2,500000,Occasional,1
+32,National Light Traders,Jaipur,Rajasthan,3,3,1000000,Occasional,1
+33,Bharat Sales Corporation,Vijayawada,Andhra Pradesh,2,2,2000000,Occasional,1
+34,National Distributors,Madurai,Tamil Nadu,2,2,1000000,Regular,1
+35,Janta Distributors,Madurai,Tamil Nadu,2,2,500000,Dormant,0
+36,New India Electricals,Ahmedabad,Gujarat,1,1,5000000,Dormant,0
+37,Classic Distributors,Nagpur,Maharashtra,1,1,5000000,Dormant,0
+38,Eastern Light Centre,Bengaluru,Karnataka,2,2,2000000,Regular,1
+39,Excel Light Centre,Bhubaneswar,Odisha,4,4,1000000,Regular,1
+40,Bharat Electricals 40,Hyderabad,Telangana,2,2,1000000,Occasional,1
+41,Metro Power House,Surat,Gujarat,1,1,500000,Top,1
+42,Star Electricals 42,Hyderabad,Telangana,2,2,1000000,Occasional,1
+43,Eastern Distributors,Madurai,Tamil Nadu,2,2,1000000,Occasional,1
+44,Bright Agencies,Vijayawada,Andhra Pradesh,2,2,5000000,Regular,1
+45,Mahalaxmi Light Traders,Surat,Gujarat,1,1,500000,Top,1
+46,Metro Distributors,Nashik,Maharashtra,1,1,500000,Regular,1
+47,Bright Supply Co.,Ludhiana,Punjab,3,3,2000000,Top,1
+48,Galaxy Agencies,Kolkata,West Bengal,4,4,500000,Top,1
+49,Star Distributors,Nashik,Maharashtra,1,1,500000,Occasional,1
+50,Classic Agencies,Bhubaneswar,Odisha,4,4,2000000,Dormant,0
+51,Eastern Electricals,Kochi,Kerala,2,2,2000000,Top,1
+52,Super Light Centre,Howrah,West Bengal,4,4,1000000,Occasional,1
+53,Galaxy Supply Co.,Ahmedabad,Gujarat,1,1,1000000,Top,1
+54,Bharat Agencies,Pune,Maharashtra,1,1,5000000,Regular,1
+55,Excel Distributors,Howrah,West Bengal,4,4,1000000,Occasional,1
+56,Star Power House,Ranchi,Jharkhand,4,4,500000,Dormant,0
+57,Sai Electronics,Siliguri,West Bengal,4,4,2000000,Top,1
+58,Eastern Power House 58,Kanpur,Uttar Pradesh,3,3,500000,Occasional,1
+59,Royal Light Centre,Howrah,West Bengal,4,4,2000000,Regular,1
+60,Royal Electronics,Ahmedabad,Gujarat,1,1,5000000,Regular,1
+61,Milan Sales Corporation,Hyderabad,Telangana,2,2,1000000,Dormant,0
+62,Sai Enterprises,Nashik,Maharashtra,1,1,500000,Dormant,0
+63,Super Trading Co.,Madurai,Tamil Nadu,2,2,7500000,Regular,1
+64,Royal Agencies,Hyderabad,Telangana,2,2,1000000,Top,1
+65,Excel Sales Corporation,Bhubaneswar,Odisha,4,4,1000000,Regular,1
+66,Capital Sales Corporation,Bhubaneswar,Odisha,4,4,2000000,Occasional,1
+67,Apex Trading Co.,Vijayawada,Andhra Pradesh,2,2,1000000,Regular,1
+68,Super Power House 68,Ahmedabad,Gujarat,1,1,1000000,Occasional,1
+69,Apex Enterprises 69,Patna,Bihar,4,4,1000000,Occasional,1
+70,Super Power House 70,Coimbatore,Tamil Nadu,2,2,1000000,Occasional,1
+71,Excel Agencies 71,Madurai,Tamil Nadu,2,2,500000,Regular,1
+72,Star Light Traders,Nagpur,Maharashtra,1,1,5000000,Regular,1
+73,Milan Light Centre,Ahmedabad,Gujarat,1,1,500000,Regular,1
+74,National Electronics,Indore,Madhya Pradesh,1,1,2000000,Regular,1
+75,New India Distributors,Chennai,Tamil Nadu,2,2,500000,Dormant,0
+76,United Supply Co.,Chandigarh,Chandigarh,3,3,5000000,Occasional,1
+77,United Electronics,Vijayawada,Andhra Pradesh,2,2,1000000,Occasional,1
+78,Janta Agencies,Kanpur,Uttar Pradesh,3,3,2000000,Occasional,1
+79,Classic Sales Corporation,Ludhiana,Punjab,3,3,1000000,Regular,1
+80,Capital Trading Co.,Nashik,Maharashtra,1,1,500000,Dormant,0
+81,Galaxy Distributors,Ahmedabad,Gujarat,1,1,1000000,Top,1
+82,Milan Enterprises 82,Chennai,Tamil Nadu,2,2,500000,Dormant,0
+83,Sunrise Agencies,Chennai,Tamil Nadu,2,2,5000000,Occasional,1
+84,New India Enterprises,Vijayawada,Andhra Pradesh,2,2,1000000,Dormant,0
+85,Milan Trading Co.,Chennai,Tamil Nadu,2,2,2000000,Occasional,1
+86,New India Electricals 86,Nagpur,Maharashtra,1,1,1000000,Dormant,0
+87,Apex Power House,Ahmedabad,Gujarat,1,1,500000,Dormant,0
+88,Janta Trading Co.,Coimbatore,Tamil Nadu,2,2,5000000,Regular,1
+89,Apex Agencies,Gurugram,Haryana,3,3,1000000,Occasional,1
+90,Prime Sales Corporation,Madurai,Tamil Nadu,2,2,5000000,Top,1
+91,Royal Electricals,Jaipur,Rajasthan,3,3,500000,Occasional,1
+92,Om Agencies 92,Ludhiana,Punjab,3,3,500000,Occasional,1
+93,Western Light Traders 93,Guwahati,Assam,4,4,5000000,Occasional,1
+94,Milan Distributors,Kanpur,Uttar Pradesh,3,3,2000000,Top,1
+95,Western Sales Corporation,Ahmedabad,Gujarat,1,1,500000,Occasional,1
+96,New India Electronics,Lucknow,Uttar Pradesh,3,3,500000,Occasional,1
+97,Apex Light Centre,Kochi,Kerala,2,2,5000000,Top,1
+98,Om Power House,Ranchi,Jharkhand,4,4,2000000,Regular,1
+99,New India Light Centre,Indore,Madhya Pradesh,1,1,2000000,Regular,1
+100,Eastern Light Centre 100,Indore,Madhya Pradesh,1,1,1000000,Regular,1
+101,Shree Light Centre,Lucknow,Uttar Pradesh,3,3,500000,Dormant,0
+102,Capital Agencies,Madurai,Tamil Nadu,2,2,2000000,Dormant,0
+103,Royal Light Traders,Hyderabad,Telangana,2,2,1000000,Regular,1
+104,Om Light Centre 104,Chandigarh,Chandigarh,3,3,500000,Regular,1
+105,Prime Agencies,Ahmedabad,Gujarat,1,1,1000000,Occasional,1
+106,Capital Trading Co. 106,Bengaluru,Karnataka,2,2,500000,Occasional,1
+107,Royal Trading Co.,Ahmedabad,Gujarat,1,1,1000000,Top,1
+108,Eastern Enterprises 108,Jaipur,Rajasthan,3,3,1000000,Dormant,0
+109,Prime Trading Co. 109,Siliguri,West Bengal,4,4,500000,Regular,1
+110,Bharat Supply Co.,Mumbai,Maharashtra,1,1,5000000,Regular,1
+111,National Electricals,Ranchi,Jharkhand,4,4,1000000,Occasional,1
+112,National Light Traders 112,Chennai,Tamil Nadu,2,2,500000,Regular,1
+113,Western Light Traders 113,Jaipur,Rajasthan,3,3,500000,Dormant,0
+114,United Electronics 114,Kochi,Kerala,2,2,1000000,Regular,1
+115,Mahalaxmi Enterprises,Patna,Bihar,4,4,5000000,Top,1
+116,Bright Distributors,Howrah,West Bengal,4,4,500000,Regular,1
+117,Sai Electricals,Mumbai,Maharashtra,1,1,2000000,Regular,1
+118,Western Agencies,Pune,Maharashtra,1,1,1000000,Occasional,1
+119,Bright Enterprises,Nashik,Maharashtra,1,1,5000000,Occasional,1
+120,Bright Power House,Pune,Maharashtra,1,1,2000000,Dormant,0
+121,Western Enterprises,Indore,Madhya Pradesh,1,1,1000000,Occasional,1
+122,Om Agencies,Bengaluru,Karnataka,2,2,5000000,Occasional,1
+123,Bharat Electronics 123,Bengaluru,Karnataka,2,2,1000000,Occasional,1
+124,Shree Sales Corporation 124,Ahmedabad,Gujarat,1,1,1000000,Occasional,1
+125,Bright Light Centre,Surat,Gujarat,1,1,500000,Dormant,0
+126,Classic Light Traders,Kochi,Kerala,2,2,1000000,Regular,1
+127,Sai Trading Co.,Gurugram,Haryana,3,3,1000000,Regular,1
+128,Janta Light Traders 128,Siliguri,West Bengal,4,4,1000000,Regular,1
+129,Shree Sales Corporation,Siliguri,West Bengal,4,4,1000000,Dormant,0
+130,Star Light Centre,Nashik,Maharashtra,1,1,2000000,Occasional,1
+131,Western Light Centre,Pune,Maharashtra,1,1,1000000,Dormant,0
+132,Prime Power House,Bhubaneswar,Odisha,4,4,500000,Regular,1
+133,National Light Centre,Indore,Madhya Pradesh,1,1,2000000,Dormant,0
+134,Western Supply Co.,Vijayawada,Andhra Pradesh,2,2,1000000,Occasional,1
+135,Janta Supply Co.,Howrah,West Bengal,4,4,500000,Regular,1
+136,Metro Agencies,Coimbatore,Tamil Nadu,2,2,5000000,Occasional,1
+137,Western Agencies 137,Bhubaneswar,Odisha,4,4,1000000,Occasional,1
+138,Classic Trading Co. 138,Coimbatore,Tamil Nadu,2,2,2000000,Regular,1
+139,Royal Distributors,Madurai,Tamil Nadu,2,2,500000,Occasional,1
+140,Classic Electronics,Ahmedabad,Gujarat,1,1,2000000,Regular,1
+141,Bharat Power House,Ranchi,Jharkhand,4,4,1000000,Occasional,1
+142,National Supply Co.,Ranchi,Jharkhand,4,4,500000,Dormant,0
+143,Galaxy Light Traders,Vijayawada,Andhra Pradesh,2,2,5000000,Regular,1
+144,Bright Light Traders,Bengaluru,Karnataka,2,2,5000000,Dormant,0
+145,New India Electricals 145,Madurai,Tamil Nadu,2,2,500000,Occasional,1
+146,Super Light Traders,Howrah,West Bengal,4,4,500000,Regular,1
+147,Janta Power House,Delhi,Delhi,3,3,5000000,Occasional,1
+148,Western Trading Co.,Chennai,Tamil Nadu,2,2,500000,Regular,1
+149,Sai Power House,Vijayawada,Andhra Pradesh,2,2,1000000,Regular,1
+150,Classic Enterprises,Coimbatore,Tamil Nadu,2,2,1000000,Regular,1
+151,Western Sales Corporation 151,Vijayawada,Andhra Pradesh,2,2,500000,Occasional,1
+152,Bright Electronics,Patna,Bihar,4,4,1000000,Occasional,1
+153,Prime Electronics 153,Nagpur,Maharashtra,1,1,1000000,Occasional,1
+154,Excel Electronics,Indore,Madhya Pradesh,1,1,1000000,Regular,1
+155,Western Distributors 155,Delhi,Delhi,3,3,1000000,Occasional,1
+156,Excel Power House 156,Nashik,Maharashtra,1,1,5000000,Occasional,1
+157,Janta Electricals,Indore,Madhya Pradesh,1,1,2000000,Occasional,1
+158,Super Electronics,Patna,Bihar,4,4,500000,Regular,1
+159,Eastern Power House 159,Patna,Bihar,4,4,2000000,Regular,1
+160,National Light Centre 160,Patna,Bihar,4,4,500000,Dormant,0
+161,New India Trading Co. 161,Guwahati,Assam,4,4,1000000,Top,1
+162,Sunrise Sales Corporation,Bengaluru,Karnataka,2,2,500000,Occasional,1
+163,National Sales Corporation,Patna,Bihar,4,4,500000,Regular,1
+164,Metro Sales Corporation 164,Hyderabad,Telangana,2,2,5000000,Occasional,1
+165,Galaxy Electricals,Delhi,Delhi,3,3,1000000,Dormant,0
+166,New India Power House,Pune,Maharashtra,1,1,1000000,Regular,1
+167,Apex Enterprises,Ludhiana,Punjab,3,3,500000,Occasional,1
+168,Apex Agencies 168,Gurugram,Haryana,3,3,1000000,Top,1
+169,Sunrise Light Traders,Coimbatore,Tamil Nadu,2,2,1000000,Dormant,0
+170,National Light Centre 170,Bengaluru,Karnataka,2,2,500000,Top,1
+171,Prime Power House 171,Chennai,Tamil Nadu,2,2,500000,Occasional,1
+172,Prime Trading Co.,Pune,Maharashtra,1,1,2000000,Occasional,1
+173,Galaxy Power House,Indore,Madhya Pradesh,1,1,2000000,Occasional,1
+174,Sunrise Distributors 174,Delhi,Delhi,3,3,500000,Occasional,1
+175,Apex Supply Co.,Ahmedabad,Gujarat,1,1,500000,Top,1
+176,Janta Supply Co. 176,Ludhiana,Punjab,3,3,1000000,Regular,1
+177,Excel Supply Co.,Gurugram,Haryana,3,3,2000000,Regular,1
+178,Milan Electronics,Nagpur,Maharashtra,1,1,1000000,Occasional,1
+179,Capital Enterprises,Mumbai,Maharashtra,1,1,500000,Regular,1
+180,Om Trading Co.,Hyderabad,Telangana,2,2,1000000,Regular,1
+181,Apex Light Traders,Hyderabad,Telangana,2,2,500000,Occasional,1
+182,Apex Light Centre 182,Gurugram,Haryana,3,3,1000000,Dormant,0
+183,National Trading Co.,Vijayawada,Andhra Pradesh,2,2,2000000,Regular,1
+184,Metro Light Traders 184,Guwahati,Assam,4,4,500000,Top,1
+185,Mahalaxmi Supply Co. 185,Coimbatore,Tamil Nadu,2,2,2000000,Occasional,1
+186,Apex Electricals,Vijayawada,Andhra Pradesh,2,2,1000000,Dormant,0
+187,Royal Power House,Surat,Gujarat,1,1,500000,Occasional,1
+188,Eastern Enterprises 188,Hyderabad,Telangana,2,2,1000000,Regular,1
+189,Star Enterprises,Siliguri,West Bengal,4,4,1000000,Occasional,1
+190,Shree Power House 190,Siliguri,West Bengal,4,4,2000000,Regular,1
+191,Excel Electronics 191,Coimbatore,Tamil Nadu,2,2,2000000,Top,1
+192,Apex Light Centre 192,Surat,Gujarat,1,1,1000000,Regular,1
+193,Bharat Power House 193,Hyderabad,Telangana,2,2,1000000,Regular,1
+194,Classic Enterprises 194,Nagpur,Maharashtra,1,1,500000,Regular,1
+195,Western Sales Corporation 195,Madurai,Tamil Nadu,2,2,1000000,Occasional,1
+196,Bharat Electricals 196,Pune,Maharashtra,1,1,5000000,Regular,1
+197,Capital Light Traders,Lucknow,Uttar Pradesh,3,3,2000000,Top,1
+198,Om Distributors,Surat,Gujarat,1,1,2000000,Occasional,1
+199,Super Electricals,Indore,Madhya Pradesh,1,1,1000000,Regular,1
+200,Milan Sales Corporation 200,Bhubaneswar,Odisha,4,4,500000,Regular,1

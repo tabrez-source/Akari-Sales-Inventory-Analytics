@@ -1,0 +1,8 @@
+GodownID,BranchID,GodownName,City,State,IsMainGodown,IsActive
+1,1,Bhiwandi Main Godown,Bhiwandi,Maharashtra,1,1
+2,1,Mumbai City Godown,Mumbai,Maharashtra,0,1
+3,2,Chennai Main Godown,Chennai,Tamil Nadu,0,1
+4,2,Chennai Outer Godown,Sriperumbudur,Tamil Nadu,0,1
+5,3,Delhi Main Godown,Delhi,Delhi,0,1
+6,4,Kolkata Main Godown,Kolkata,West Bengal,0,1
+7,4,Howrah Overflow Godown,Howrah,West Bengal,0,1
