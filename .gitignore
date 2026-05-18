@@ -1,0 +1,63 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+.env
+venv/
+.venv/
+
+# ----------------------------
+# Data Files (IMPORTANT)
+# ----------------------------
+# Ignore large/raw/generated data
+data/raw/
+data/processed/
+data/sql_load/
+
+*.csv
+*.tsv
+*.xlsx
+
+# Allow only sample data
+!data/sample/
+!data/sample/*.csv
+!data/sample/*.tsv
+
+# ----------------------------
+# SQL Server / Database
+# ----------------------------
+*.bak
+*.mdf
+*.ldf
+*.trn
+
+# ----------------------------
+# Power BI
+# ----------------------------
+*.pbix
+*.pbit
+
+# ----------------------------
+# OS Files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# IDE / Editor
+# ----------------------------
+.vscode/
+.idea/
+
+# ----------------------------
+# Temporary / Misc
+# ----------------------------
+*.tmp
+*.temp
+*.cache
