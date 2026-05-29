@@ -1,0 +1,11 @@
+USE Akari_DW;
+GO
+
+CREATE SCHEMA dim;
+GO
+
+CREATE SCHEMA fact;
+GO
+
+CREATE SCHEMA etl;
+GO
