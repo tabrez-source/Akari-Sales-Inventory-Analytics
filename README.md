@@ -26,6 +26,8 @@ The objective is to analyze:
 - Product demand
 - Inventory movement
 - Distributor behavior
+- Regional and branch-level performance
+- Stock and inventory trends
 
 ---
 
@@ -36,8 +38,8 @@ The objective is to analyze:
 | Phase 0 | Business Understanding | Completed |
 | Phase 1 | Data Generation (Python) | Completed |
 | Phase 2 | SQL Server Staging | Completed |
-| Phase 3 | OLTP Layer | Planned |
-| Phase 4 | Data Warehouse | Planned |
+| Phase 3 | OLTP Layer | Completed |
+| Phase 4 | Data Warehouse | Completed |
 | Phase 5 | Power BI Dashboard | Planned |
 
 ---
@@ -68,4 +70,10 @@ Staging Tables (stg schema)
     ↓
 Data Validation
     ↓
-Future: OLTP → Data Warehouse → Power BI
+OLTP Layer
+    ↓
+Data Warehouse
+    ↓
+Reporting Views
+    ↓
+Future: Power BI Dashboard
