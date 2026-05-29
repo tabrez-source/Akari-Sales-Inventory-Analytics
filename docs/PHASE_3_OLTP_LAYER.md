@@ -1,138 +1,86 @@
-\# Phase 3: OLTP Layer
+# Phase 3: OLTP Layer
 
+## Objective
 
+The objective of this phase was to transform raw staging data into a structured Operational Transaction Processing (OLTP) system.
 
-\## Objective
+The OLTP layer organizes business data into normalized relational tables and serves as the operational foundation for downstream analytics.
 
-
-
-The objective of this phase was to transform raw staging data into a clean OLTP layer.
-
-
-
-The OLTP layer represents the operational business structure of Akari using relational tables, keys, constraints, and validation rules.
-
-
-
-\## SQL Folder
-
-
+## SQL Components
 
 ```text
-
-sql/02\_oltp/
-
+sql/02_oltp/
+sql/03_views/
+sql/04_indexes/
+sql/05_procedures/
+sql/06_automation/
 ```
 
+## Work Completed
 
+### Database Design
 
-\## Supporting SQL Folders
+- Created normalized business tables
+- Implemented primary keys
+- Implemented foreign keys
+- Added business constraints
 
+### Data Loading
 
+- Loaded clean data from staging tables
+- Applied business transformation logic
+- Validated loaded records
 
-```text
+### Optimization
 
-sql/03\_views/
+- Created reporting views
+- Added indexing strategies
+- Developed stored procedures
+- Implemented validation scripts
 
-sql/04\_indexes/
+## Data Quality Observation
 
-sql/05\_procedures/
+Approximately 18% of completed orders did not have corresponding dispatch records.
 
-sql/06\_automation/
+## Assumption
 
-```
+Dispatch information was either incomplete or not captured for all completed orders.
 
+## Decision
 
+- Retained original order status
+- Flagged the issue as a data quality concern
+- Avoided altering business data without supporting evidence
 
-\## Work Completed
+## Validation Checks
 
+- Primary key validation
+- Foreign key validation
+- Duplicate checks
+- Missing value checks
+- Relationship integrity checks
 
-
-\* Created OLTP tables
-
-\* Loaded data from staging into OLTP tables
-
-\* Applied primary keys and foreign keys
-
-\* Added business constraints
-
-\* Created views
-
-\* Added indexing scripts
-
-\* Added stored procedure scripts
-
-\* Added validation scripts
-
-
-
-\## Why OLTP Layer Is Important
-
-
+## Why OLTP Is Important
 
 The OLTP layer is used to:
 
+- Organize business entities
+- Reduce data redundancy
+- Enforce business rules
+- Improve data integrity
+- Prepare clean source data for the Data Warehouse
 
-
-\* Organize raw data into business entities
-
-\* Reduce redundancy
-
-\* Improve data integrity
-
-\* Enforce relationships
-
-\* Prepare clean source data for the data warehouse
-
-
-
-\## Data Quality Observation
-
-
-
-Around 18% of completed orders do not have corresponding dispatch records.
-
-
-
-\## Assumption
-
-
-
-Dispatch data is either incomplete or not captured for all completed orders.
-
-
-
-\## Decision
-
-
-
-The original order status was retained.
-
-
-
-This issue was flagged as a data quality issue for future investigation instead of changing business data without confirmed evidence.
-
-
-
-\## Learning Outcome
-
-
+## Learning Outcome
 
 This phase helped build understanding of:
 
+- OLTP database design
+- Data normalization
+- Primary and foreign key relationships
+- Constraints and business rules
+- Data validation techniques
+- Real-world data quality handling
 
+## Outcome
 
-\* OLTP database design
-
-\* Normalization
-
-\* Primary key and foreign key relationships
-
-\* Constraints
-
-\* Validation queries
-
-\* Real-world data quality handling
-
-
-
+A structured and validated OLTP system was established to support Data Warehouse development and business reporting.

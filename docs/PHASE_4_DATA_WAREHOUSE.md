@@ -1,156 +1,90 @@
-\# Phase 4 – Data Warehouse
+# Phase 4: Data Warehouse
 
+## Objective
 
+The objective of this phase was to create an analytics-ready Data Warehouse optimized for reporting and future Power BI dashboards.
 
-\## Objective
+The Data Warehouse transforms operational data into structures designed for business analysis and decision-making.
 
-
-
-Create an analytics-ready data model optimized for reporting and future Power BI dashboards.
-
-
-
-\---
-
-
-
-\## SQL Folder
-
-
+## SQL Folder
 
 ```text
-
-sql/07\_data\_warehouse/
-
+sql/07_data_warehouse/
 ```
 
-
-
-\---
-
-
-
-\## Scripts
-
-
+## Scripts
 
 ```text
-
-01\_create\_schema.sql
-
-02\_create\_tables.sql
-
-03\_insert\_tables.sql
-
-04\_dw\_validation.sql
-
-05\_reporting\_views.sql
-
-06\_future\_reporting\_views.sql
-
-07\_view\_validation.sql
-
-08\_anomaly\_check.sql
-
+01_create_schema.sql
+02_create_tables.sql
+03_insert_tables.sql
+04_dw_validation.sql
+05_reporting_views.sql
+06_future_reporting_views.sql
+07_view_validation.sql
+08_anomaly_check.sql
 ```
 
+## Work Completed
 
+### Data Warehouse Design
 
-\---
+- Created Data Warehouse schema
+- Created dimension tables
+- Created fact tables
 
+### Data Loading
 
+- Loaded data from OLTP into the Data Warehouse
+- Validated warehouse data after loading
 
-\## Work Completed
+### Reporting Layer
 
+- Created reporting views
+- Created future reporting views
+- Prepared datasets for Power BI integration
 
-
-\### Data Warehouse Design
-
-
-
-\* Created Data Warehouse schema
-
-\* Created Dimension tables
-
-\* Created Fact tables
-
-
-
-\### Data Loading
-
-
-
-\* Loaded data from OLTP into the Data Warehouse
-
-\* Validated warehouse data after loading
-
-
-
-\### Reporting Layer
-
-
-
-Created reporting views to simplify future Power BI development and provide business-friendly datasets for analysis.
-
-
-
-\---
-
-
-
-\## Validation
-
-
+## Validation
 
 Implemented the following validation checks:
 
+- Row count validation
+- Referential integrity checks
+- Missing key detection
+- Reporting view validation
+- Anomaly detection
 
-
-\* Row count validation
-
-\* Referential integrity checks
-
-\* Missing key detection
-
-\* Reporting view validation
-
-\* Anomaly detection
-
-
-
-\---
-
-
-
-\## Business Value
-
-
+## Business Value
 
 The Data Warehouse enables analysis such as:
 
+- Product performance analysis
+- Regional sales trend analysis
+- Distributor effectiveness evaluation
+- Revenue and profitability analysis
+- Inventory movement and trend monitoring
 
+## Why a Data Warehouse Is Important
 
-\* Product performance analysis
+The Data Warehouse is designed to:
 
-\* Regional sales trend analysis
+- Support analytical workloads
+- Improve reporting performance
+- Simplify business analysis
+- Separate reporting logic from OLTP operations
+- Provide clean reporting datasets
 
-\* Distributor effectiveness evaluation
+## Learning Outcome
 
-\* Revenue and profitability analysis
+This phase helped build understanding of:
 
-\* Inventory movement and trend monitoring
+- Data Warehouse architecture
+- Fact and Dimension modeling
+- Reporting view development
+- Data validation techniques
+- Analytics-ready database design
+- Business Intelligence workflows
 
+## Outcome
 
-
-\---
-
-
-
-\## Outcome
-
-
-
-Created a scalable analytical layer designed to support reporting, business intelligence, and future decision-making through Power BI dashboards.
-
-
-
+A scalable analytical layer was created to support reporting, business intelligence, and future Power BI dashboard development.
