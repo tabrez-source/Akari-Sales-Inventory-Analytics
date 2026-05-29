@@ -1,8 +1,8 @@
-\# Phase 2: SQL Server Staging
+# Phase 2: SQL Server Staging
 
 
 
-\## Objective
+## Objective
 
 
 
@@ -14,19 +14,19 @@ The staging layer stores raw imported data before it is cleaned and transformed 
 
 
 
-\## Database
+## Database
 
 
 
 ```sql
 
-Akari\_Staging
+Akari_Staging
 
 ```
 
 
 
-\## Schema
+## Schema
 
 
 
@@ -38,89 +38,75 @@ stg
 
 
 
-\## SQL Scripts
+## SQL Scripts
 
 
 
 ```text
 
-sql/01\_staging/
-
-├── 01\_create\_database.sql
-
-├── 02\_create\_schemas.sql
-
-├── 03\_create\_staging\_tables.sql
-
-├── 04\_bulk\_insert\_data.sql
-
-└── 05\_data\_validation.sql
-
+sql/01_staging/
+├── 01_create_database.sql
+├── 02_create_schemas.sql
+├── 03_create_staging_tables.sql
+├── 04_bulk_insert_data.sql
+└── 05_data_validation.sql
 ```
 
 
 
-\## Execution Flow
+## Execution Flow
 
 
 
 ```text
 
 Create Database
-
-&#x20;   ↓
-
+    ↓
 Create Schema
-
-&#x20;   ↓
-
+    ↓
 Create Raw Staging Tables
-
-&#x20;   ↓
-
+    ↓
 Load TSV Files Using BULK INSERT
-
-&#x20;   ↓
-
+    ↓
 Run Data Validation
 
 ```
 
 
 
-\## Work Completed
+## Work Completed
 
 
 
-\* Created SQL Server staging database
+* Created SQL Server staging database
 
-\* Created `stg` schema
+* Created `stg` schema
 
-\* Created raw staging tables
+* Created raw staging tables
 
-\* Loaded large TSV files using `BULK INSERT`
+* Loaded large TSV files using `BULK INSERT`
 
-\* Validated loaded data
-
-
-
-\## Validation Checks
+* Validated loaded data
 
 
 
-\* Row count checks
-
-\* Duplicate checks
-
-\* Blank value checks
-
-\* Basic business distribution checks
-
-\* Data load verification
+## Validation Checks
 
 
 
-\## Why Staging Is Important
+* Row count checks
+
+* Duplicate checks
+
+* Blank value checks
+
+* Basic business distribution checks
+
+* Data load verification
+
+
+
+## Why Staging Is Important
 
 
 
@@ -128,17 +114,17 @@ The staging layer is used to:
 
 
 
-\* Keep raw imported data separate
+* Keep raw imported data separate
 
-\* Debug data load issues
+* Debug data load issues
 
-\* Validate data before transformation
+* Validate data before transformation
 
-\* Support clean downstream modeling
+* Support clean downstream modeling
 
 
 
-\## Learning Outcome
+## Learning Outcome
 
 
 
@@ -146,15 +132,15 @@ This phase helped build understanding of:
 
 
 
-\* SQL Server staging design
+* SQL Server staging design
 
-\* Schema-based organization
+* Schema-based organization
 
-\* Bulk data loading
+* Bulk data loading
 
-\* Data validation
+* Data validation
 
-\* ETL workflow structure
+* ETL workflow structure
 
 
 
