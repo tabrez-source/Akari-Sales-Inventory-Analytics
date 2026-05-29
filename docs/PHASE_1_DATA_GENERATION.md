@@ -1,304 +1,58 @@
-\# Phase 1 – Data Generation
+# Phase 1: Data Generation
 
+## Objective
 
+The objective of this phase was to generate realistic synthetic business data for the Akari Sales & Inventory Analytics Platform.
 
-\---
+This data supports the full analytics pipeline from raw data generation to SQL Server, data warehouse modeling, and future Power BI reporting.
 
+## Tools Used
 
+* Python
+* Pandas
+* CSV file handling
+* TSV file preparation
 
-\## Objective
-
-
-
-To generate a realistic dataset that reflects Akari’s business operations and supports downstream analytics.
-
-
-
-\---
-
-
-
-\## Architecture
-
-
+## Scripts
 
 ```text
-
-Seed Data → Python Scripts → Raw CSV Files → SQL Staging (Next Phase)
-
+scripts/data_generation/
+├── 01_generate_master_data.py
+├── 02_generate_business_master.py
+├── 03_generate_price_data.py
+├── 04_generate_sales_data.py
+├── 05_generate_inventory_data.py
+└── 06_prepare_sql_load_files.py
 ```
 
+## Work Completed
 
+* Generated master data
+* Generated product and distributor data
+* Generated pricing data
+* Generated sales transaction data
+* Generated inventory data
+* Prepared SQL-load-ready files
 
-\---
+## Key Challenge
 
+CSV files caused ingestion issues during SQL Server bulk loading.
 
+## Solution
 
-\## Output Files
+CSV files were converted into TSV files using Python.
 
+TSV files worked better with SQL Server `BULK INSERT` because tab delimiters reduced parsing issues.
 
+## Output
 
-\### Master Data
+The output of this phase was a set of structured load-ready files prepared for SQL Server staging.
 
+## Learning Outcome
 
+This phase helped build understanding of:
 
-\* product\_categories.csv
-
-\* products.csv
-
-\* branches.csv
-
-\* godowns.csv
-
-\* sales\_heads.csv
-
-\* distributors.csv
-
-
-
-\---
-
-
-
-\### Pricing and Schemes
-
-
-
-\* product\_price\_history.csv
-
-\* price\_lists.csv
-
-\* price\_list\_items.csv
-
-\* schemes.csv
-
-\* scheme\_slabs.csv
-
-
-
-\---
-
-
-
-\### Transactions
-
-
-
-\* sales\_orders.csv
-
-\* sales\_order\_items.csv
-
-\* dispatches.csv
-
-
-
-\---
-
-
-
-\### Inventory
-
-
-
-\* stock\_inward.csv
-
-\* stock\_outward.csv
-
-\* inventory\_snapshot.csv
-
-
-
-\---
-
-
-
-\## Scripts
-
-
-
-```
-
-scripts/data\_generation/
-
-```
-
-
-
-| Script                         | Purpose                         |
-
-| ------------------------------ | ------------------------------- |
-
-| 01\_generate\_master\_data.py     | Product and category data       |
-
-| 02\_generate\_business\_master.py | Branches, godowns, distributors |
-
-| 03\_generate\_price\_data.py      | Pricing and schemes             |
-
-| 04\_generate\_sales\_data.py      | Sales transactions              |
-
-| 05\_generate\_inventory\_data.py  | Inventory movement              |
-
-
-
-\---
-
-
-
-\## Business Logic
-
-
-
-\### Sales
-
-
-
-\* 80–150 orders per day
-
-\* Lower activity on Sundays
-
-\* Seasonal variation (Diwali spike)
-
-\* Pre-orders for selected categories
-
-
-
-\---
-
-
-
-\### Regions
-
-
-
-\* Four primary branches
-
-\* Cross-region sales included
-
-
-
-\---
-
-
-
-\### Pricing
-
-
-
-\* Quarterly adjustments
-
-\* Weekly price lists
-
-\* Low-stock exclusion
-
-
-
-\---
-
-
-
-\### Schemes
-
-
-
-\* Annual Diwali schemes
-
-\* Turnover-based slabs
-
-
-
-\---
-
-
-
-\### Inventory
-
-
-
-\* Imports every 2–3 months
-
-\* Regular inter-branch transfers
-
-\* Dispatch-based stock reduction
-
-
-
-\---
-
-
-
-\## Data Scale
-
-
-
-\* \~200K orders
-
-\* \~400K+ order items
-
-\* Multi-year dataset
-
-
-
-\---
-
-
-
-\## Data Cleaning
-
-
-
-Handled in Python:
-
-
-
-\* Removed currency symbols
-
-\* Cleaned numeric formatting
-
-\* Standardized data types
-
-
-
-\---
-
-
-
-\## Outcome
-
-
-
-The dataset is ready for:
-
-
-
-\* SQL Server staging
-
-\* Data validation
-
-\* Data modeling
-
-\* Power BI reporting
-
-
-
-\---
-
-
-
-\## Next Phase
-
-
-
-Phase 2: SQL Server Staging
-
-
-
-\* Import CSV files
-
-\* Apply data types
-
-\* Validate data
-
-\* Prepare for modeling
-
-
-
+* Synthetic business data generation
+* Data preparation using Python
+* File formatting for SQL Server ingestion
+* Real-world data pipeline preparation
